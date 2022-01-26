@@ -3,7 +3,7 @@ import { View, Text } from "react-native"
 
 export default function Information({ route }){
     return(
-        <View>
+        <View style={{marginTop:20}}>
             <Text>Information</Text>
             <Text>Nome: {route.params?.nome}</Text>
             <Text>Telefone: {route.params?.telefone}</Text>
